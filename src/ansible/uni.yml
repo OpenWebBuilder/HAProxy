@@ -1,0 +1,5 @@
+- hosts: node #localhost
+  # vars_files:
+  #   - vars/HAProxy-config.yml
+  roles:
+  - HAProxy
